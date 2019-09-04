@@ -1,0 +1,80 @@
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin: 0;
+}
+.container{
+    max-width: 1024px;
+    max-height: 300px;
+    margin: 0 auto;
+}
+.header {
+    background: #2e4a7f;
+    color: white;
+    margin: 0;
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.header a
+{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0 10px;
+}
+.menu
+{
+    height: inherit;
+}
+.header ul
+{
+    display: flex;
+    height: inherit;
+}
+.header ul li 
+{
+    height: inherit;
+}
+ol,ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.header img
+{
+    height: 40px;
+    padding: 0 1em;
+}
+.hero {
+    height: 300px;
+    margin: 0;
+    background: #2e4a7f;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "hero-title hero-image"
+}
+.hero-image {
+
+    grid-area: hero-image;
+    width: 100%;
+    max-height: 280px;
+}
+.hero-title {
+    font-size: 2.2em;
+    line-height: 1.5em;
+    letter-spacing: -.5px;
+    color: white;
+    margin: 0;
+    padding: 1em;
+    grid-area: hero-title;
+}
+.hero-title strong {
+    color: #75a9fc;
+}
